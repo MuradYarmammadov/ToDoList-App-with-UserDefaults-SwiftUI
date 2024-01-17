@@ -17,6 +17,7 @@
 		FA0833992B50ABD30089CEC4 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0833982B50ABD30089CEC4 /* ListViewModel.swift */; };
 		FA08339D2B56B5AB0089CEC4 /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08339C2B56B5AB0089CEC4 /* AddViewModel.swift */; };
 		FA08339F2B57F8210089CEC4 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA08339E2B57F8210089CEC4 /* NoItemsView.swift */; };
+		FA6473D72B58891600A32C5C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6473D62B58891600A32C5C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FA0833982B50ABD30089CEC4 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		FA08339C2B56B5AB0089CEC4 /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
 		FA08339E2B57F8210089CEC4 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		FA6473D62B58891600A32C5C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				FA0833972B50A9CA0089CEC4 /* ViewModel */,
 				FA08338D2B5025EA0089CEC4 /* Views */,
 				FA0833832B5024D50089CEC4 /* Assets.xcassets */,
+				FA6473D62B58891600A32C5C /* Launch Screen.storyboard */,
 				FA0833852B5024D50089CEC4 /* Preview Content */,
 			);
 			path = "ToDoList SwiftUI";
@@ -167,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6473D72B58891600A32C5C /* Launch Screen.storyboard in Resources */,
 				FA0833872B5024D50089CEC4 /* Preview Assets.xcassets in Resources */,
 				FA0833842B5024D50089CEC4 /* Assets.xcassets in Resources */,
 			);

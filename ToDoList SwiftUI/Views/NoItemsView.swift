@@ -18,7 +18,7 @@ struct NoItemsView: View {
                 Text("There are no items")
                     .font(.title)
                     .fontWeight(.semibold)
-                Text("Click Add button and start making your todo list 📑")
+                Text("Click Add button and start making your ToDo list 📑")
                     .padding(.bottom, 20)
                 NavigationLink(destination: AddView()) {
                     Text("Add something 🤩")
@@ -38,6 +38,7 @@ struct NoItemsView: View {
                 .scaleEffect(animate ? 1.1 : 1)
                 .offset(y: animate ? -7 : 0)
             }
+            .frame(maxWidth: 400)
             .multilineTextAlignment(.center)
             .padding(40)
             .onAppear(perform: addAnimation)
